@@ -21,7 +21,7 @@ app.get("/api/players", async (req, res, next) => {
   }
 });
 
-app.get("/api/player/:id", async (req, res, next) => {
+app.get("/api/players/:id", async (req, res, next) => {
   try {
     const SQL = `
             SELECT *
